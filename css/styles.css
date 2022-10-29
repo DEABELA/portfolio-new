@@ -2816,7 +2816,8 @@ img.u-pull-left {
 .s-header__logo img {
   width: var(--logo-width);
   margin: 10px;
-  scale: 4.5;
+  margin-left: -10px;
+  scale: 2;
   vertical-align: bottom;
 }
 
