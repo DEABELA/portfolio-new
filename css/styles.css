@@ -2698,12 +2698,21 @@ img.u-pull-left {
   font-weight: 600;
   line-height: 1.2857;
   margin-top: 0;
+}
+
+.text-display-title1 {
+  --text-display-title-size: 5.6rem;
+  --text-multiplier: 1;
+  font-family: var(--font-2);
+  font-size: calc(var(--text-display-title-size) * var(--text-multiplier));
+  font-weight: 600;
+  line-height: 1.2857;
+  margin-top: 0;
   background-image: url(../images/bg.gif);
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 /* ------------------------------------------------------------------- 
  * responsive:
  * project-wide shared styles
