@@ -24,6 +24,7 @@
   --color-1-lighter: hsla(174, 65%, 60%, 1);
   --color-1-light: hsla(174, 65%, 50%, 1);
   --color-1-dark: hsla(174, 65%, 35%, 1);
+  --color-2-darkest: #216869;
   --color-1-darker: hsla(174, 65%, 20%, 1);
   --color-2-lighter: hsla(48, 67%, 99%, 1);
   --color-2-light: hsla(48, 67%, 89%, 1);
@@ -2697,6 +2698,10 @@ img.u-pull-left {
   font-weight: 600;
   line-height: 1.2857;
   margin-top: 0;
+  background-image: url(../images/bg.gif);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3206,7 +3211,7 @@ img.u-pull-left {
   font-weight: 300;
   font-size: calc(var(--text-size) * 1.1111);
   line-height: var(--vspace-1_25);
-  color: var(--color-text-light);
+  color: var(--color-gray-2);
   margin-top: calc(var(--vspace-3) * -1);
   margin-bottom: var(--vspace-3_5);
   padding: var(--vspace-2_5) var(--vspace-3) var(--vspace-2);
@@ -3439,7 +3444,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  background-color: var(--color-1-dark);
+  background-color: var(--color-2-darkest);
   padding-top: var(--vspace-5);
   padding-bottom: var(--vspace-5);
 }
