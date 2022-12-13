@@ -2711,7 +2711,7 @@ img.u-pull-left {
   background-image: url(../images/bg.gif);
   background-size: cover;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 /* ------------------------------------------------------------------- 
  * responsive:
