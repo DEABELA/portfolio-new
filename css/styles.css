@@ -2721,10 +2721,16 @@ img.u-pull-left {
   .text-display-title {
     --text-multiplier: 0.9286;
   }
+  .text-display-title1 {
+    --text-multiplier: 0.9286;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .text-display-title {
+    --text-multiplier: 0.8214;
+  }
+  .text-display-title1 {
     --text-multiplier: 0.8214;
   }
 }
@@ -2747,11 +2753,17 @@ img.u-pull-left {
   .text-display-title {
     --text-multiplier: 0.75;
   }
+  .text-display-title1 {
+    --text-multiplier: 0.75;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .text-display-title {
     --text-multiplier: 0.6786;
+  }
+  .text-display-title1 {
+    --text-multiplier: 0.75;
   }
 }
 
