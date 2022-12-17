@@ -2709,7 +2709,7 @@ img.u-pull-left {
   line-height: 1.2857;
   margin-top: 0;
   background-image: url(../images/bg.gif);
-  background-size: contain;
+  -webkit-background-size: contain;
   -webkit-background-clip: text;
   color: transparent;
 }
