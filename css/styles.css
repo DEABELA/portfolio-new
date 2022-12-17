@@ -2708,10 +2708,15 @@ img.u-pull-left {
   font-weight: 600;
   line-height: 1.2857;
   margin-top: 0;
-  background-image: url(../images/bg.gif);
-  -webkit-background-size: contain;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+
+@media screen and (min-width: 1000px) {
+  .text-display-title1 {
+    background-image: url(../images/bg.gif);
+    -webkit-background-size: contain;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 }
 /* ------------------------------------------------------------------- 
  * responsive:
