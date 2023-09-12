@@ -2710,14 +2710,6 @@ img.u-pull-left {
   margin-top: 0;
 }
 
-@media screen and (min-width: 1000px) {
-  .text-display-title1 {
-    background-image: url(../images/bg.gif);
-    -webkit-background-size: contain;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-}
 /* ------------------------------------------------------------------- 
  * responsive:
  * project-wide shared styles
